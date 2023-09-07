@@ -4,7 +4,6 @@ class Rect
 {
 private:
     int length, breadth;
-
 public:
     Rect(int a, int b)
     {
