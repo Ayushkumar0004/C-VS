@@ -23,11 +23,11 @@ public:
     }
 };
 int main() {
-    Swap swapObj(5, 10);
+    Swap swap1(5, 10);
     cout << "Before swapping:" << endl;
-    swapObj.displayNumbers();
-    swapObj.swapNumbers(); 
+    swap1.displayNumbers();
+    swap1.swapNumbers(); 
     cout << "After swapping:" << endl;
-    swapObj.displayNumbers();
+    swap1.displayNumbers();
     return 0;
 }
