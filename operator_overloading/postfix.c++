@@ -13,9 +13,9 @@ public:
         cout << "\nPostfix increment:";
         cout << x++ << endl;
     }
-    friend void operator--(Number& N, int);
+    friend void operator--(Number N, int);
 };
-void operator--(Number& N, int)
+void operator--(Number N, int)
 {
     cout << "\nPostfix decrement:";
     cout << N.x-- << endl;
