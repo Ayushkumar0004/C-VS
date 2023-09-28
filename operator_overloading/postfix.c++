@@ -13,9 +13,15 @@ public:
         cout << "\nPostfix increment:";
         cout << x++ << endl;
     }
+<<<<<<< HEAD
     friend void operator--(Number N, int);
 };
 void operator--(Number N, int)
+=======
+    friend void operator--(Number& N, int);
+};
+void operator--(Number& N, int)
+>>>>>>> 5c3369e9c340318a0522bdf9225be68e70da0442
 {
     cout << "\nPostfix decrement:";
     cout << N.x-- << endl;
